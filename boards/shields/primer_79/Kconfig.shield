@@ -1,0 +1,4 @@
+Copyright (c) 2022 Yusei Ito
+SPDX-License-Identifier: MIT
+config SHIELD_PRIMER_79
+def_bool $(shields_list_contains,primer_79)
