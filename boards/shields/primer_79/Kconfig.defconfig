@@ -1,0 +1,8 @@
+Copyright (c) 2022 Yusei Ito
+SPDX-License-Identifier: MIT
+if SHIELD_PRIMER_79
+
+config ZMK_KEYBOARD_NAME
+default "Primer 79"
+
+endif
