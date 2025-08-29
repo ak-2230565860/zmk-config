@@ -1,8 +1,4 @@
-Copyright (c) 2022 Yusei Ito
-SPDX-License-Identifier: MIT
-if SHIELD_PRIMER_79
+# Copyright (c) 2024 The ZMK Contributors
+# SPDX-License-Identifier: MIT
 
-config ZMK_KEYBOARD_NAME
-default "Primer 79"
-
-endif
+CONFIG_ZMK_KEYBOARD_NAME="Primer79"
