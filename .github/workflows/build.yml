@@ -2,8 +2,5 @@ on: [push, workflow_dispatch]
 
 jobs:
   build:
-    # ZMK公式のビルドシステムを呼び出します。
-    # このワークフローが、リポジトリ内にある build.yaml ファイルを自動的に読み取ります。
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-    # secrets: inherit は、将来的に必要になる可能性があるため記述します。
     secrets: inherit
