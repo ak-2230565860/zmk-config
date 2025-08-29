@@ -8,5 +8,5 @@ manifest:
       revision: main
       import: app/west.yml
   self:
-    # このリポジトリ自体をZMKの部品（モジュール）として定義します
-    path: config
+    # This repository itself is a ZMK module, and its root is the path.
+    path: .
